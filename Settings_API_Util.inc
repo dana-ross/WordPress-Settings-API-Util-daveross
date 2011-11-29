@@ -1,5 +1,5 @@
-<?php
-
+<?php if(!class_exists('Settings_API_Util')) {
+  
 /**
  * Utility class to bring some sanity to WordPress's Settings API
  * @version 0.1
@@ -272,4 +272,6 @@ class Settings_API_Util_Field {
     apply_filters('settings_api_util_checkbox', $html);
     echo $html;
   }
+}
+
 }
