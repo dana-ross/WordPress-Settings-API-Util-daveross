@@ -19,28 +19,28 @@ Usage
 
 Creating a form:
 
-`// Unique ID for this form
-$formID = 'example';
+    // Unique ID for this form
+    $formID = 'example';
 
-// Name which options will be stored under in the WordPress options table
-$optionsName = 'example_options';
+    // Name which options will be stored under in the WordPress options table
+    $optionsName = 'example_options';
 
-$form = Settings_API_Util::forID($formID, $optionsName);`
+    $form = Settings_API_Util::forID($formID, $optionsName);
 
 Add a section:
 
-`$newSection = $form->addSection('section_id', 'Section Title');`
+    $newSection = $form->addSection('section_id', 'Section Title');
 
 Add fields to the new section:
 
-`$newField = $newSection->addField('field_id', 'Field Label', Settings_API_Util_Field::TYPE_TEXTFIELD);`
+    $newField = $newSection->addField('field_id', 'Field Label', Settings_API_Util_Field::TYPE_TEXTFIELD);
 
 Render the form:
 
-`// Get a reference to the form we created above
-$form = Settings_API_Util::forID('example');
-// Output the form
-$form->renderBasicForm('Form Title', Settings_API_Util::ICON_SETTINGS);`
+    // Get a reference to the form we created above
+    $form = Settings_API_Util::forID('example');
+    // Output the form
+    $form->renderBasicForm('Form Title', Settings_API_Util::ICON_SETTINGS);
 
 Of course, actually integrating all this is more complicated. I've found the best approach is to create the form, sections, and fields in your admin_init hook, and render the form in your admin_menu hook.
 
