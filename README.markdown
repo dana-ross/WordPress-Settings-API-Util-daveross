@@ -49,10 +49,10 @@ Acknowledgements
 
 "If I have seen a little further it is by standing on the shoulders of Giants."
 
-Otto's [WordPress Settings API Tutorial][http://ottopress.com/2009/wordpress-settings-api-tutorial/] cleared up a lot of my confusion with the Settings API.
+Otto's [WordPress Settings API Tutorial](http://ottopress.com/2009/wordpress-settings-api-tutorial/) cleared up a lot of my confusion with the Settings API.
 
-All my friends and co-workers at Straight North, the [Chicago Internet Marketing Firm][http://www.straightnorth.com/] that works and plays hard.
+All my friends and co-workers at Straight North, the [Chicago Internet Marketing Firm](http://www.straightnorth.com/) that works and plays hard.
 
-[Queso Broso][http://www.quesa-broso.com/], who keep us well-fed.
+[Queso Broso](http://www.quesa-broso.com/), who keep us well-fed.
 
 
