@@ -2,7 +2,7 @@
   
 /**
  * Utility class to bring some sanity to WordPress's Settings API
- * @version 0.1
+ * @version 0.2
  * @author Dave Ross <dross@straightnorth.com>
  * @license BSD
  */
@@ -234,7 +234,7 @@ class Settings_API_Util_Field {
     
     ob_start();
     do_action('settings_api_util_pre_textfield');
-    echo "<input type=\"text\" name=\"{$options['name']}\" value=\"{$options['value']}\" />";
+    echo "<input type=\"text\" name=\"{$options['name']}\" value=\"{$options['value']}\" class=\"regular-text\" />";
     do_action('settings_api_util_after_textfield');
     $html = ob_get_contents();
     ob_end_clean();
